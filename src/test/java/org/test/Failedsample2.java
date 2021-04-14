@@ -15,4 +15,8 @@ public class Failedsample2 implements IRetryAnalyzer{
 		}
 		return false;
 	}
+	
+	private void sample() {
+		System.out.println("Updated");
+	}
 }
